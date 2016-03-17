@@ -300,8 +300,8 @@
 			.image img
 			{
 				display: block;
-
-                height: 100%;
+				width: inherit;
+        height: 100%;
 			}
 
 			.image.fit
@@ -568,7 +568,7 @@
 			font-weight: 700;
 			letter-spacing: 0.25em;
 		}
-		
+
 		.wrapper .title:before
 		{
 			content: '';
